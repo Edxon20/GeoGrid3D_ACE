@@ -1,0 +1,9 @@
+# Binarios y compilacion
+*.exe
+*.o
+*.obj
+*.a
+build/
+build_test/
+.vscode/
+.idea/

@@ -1,0 +1,23 @@
+// 1. Tamano del mapa: 20x20 casillas, donde cada casilla mide 2 metros
+grid {
+    size: (20, 20);
+    cell_size: 2.0;
+}
+
+// 2. Suelo del mapa y pintura de casilla central
+terrain {
+    default: "pasto_oscuro";
+    paint (10, 10) = "#8B0000";
+}
+
+// 3. Reglas y colocacion de objetos
+entities {
+    limit "estatua" <= 4;
+
+    spawn "boss" at center;
+    arrange "estatua" count 3 around "boss" radius 4;
+    distribute "jugador" count 4 on perimeter;
+
+    spawn "llave_salida" at (2, 18);
+    scatter "arbol" count 10;
+}
