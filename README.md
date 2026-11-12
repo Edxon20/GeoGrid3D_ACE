@@ -1,11 +1,11 @@
-# GeoGrid3D — Analizador Léxico (Entrega 1/3)
-**Institución:** Escuela de Ingeniería de Sistemas — Universidad de Los Andes (ULA)  
+# GeoGrid3D - Analizador Léxico (Entrega 1/3)
+**Institución:** Escuela de Ingeniería de Sistemas - Universidad de Los Andes (ULA)  
 **Asignatura:** Compiladores  
 **Profesor:** José Castro, Alejandro Mujica  
 **Equipo:** ACE (Grupo 3)  
 **Integrantes:**
-- **Edixon Toro** — C.I: 27.364.279
-- **Mikael Pizzi** — C.I: 27.777.243
+- **Edixon Toro** - C.I: 27.364.279
+- **Mikael Pizzi** - C.I: 27.777.243
 
 ---
 
